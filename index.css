@@ -62,3 +62,31 @@ header{
 .post-pic{
     width: 570px;
 }
+
+/*Post footer*/
+
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0 15px;
+    margin-top: 20px;
+}
+
+.icons img{
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.post-info{
+    padding: 0 15px;
+}
+
+.likes-count, .username-caption{
+    font-weight: 700;
+}
+
+.post-info p {
+    margin: 8px;
+}
