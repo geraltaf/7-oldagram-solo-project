@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: "Source Sans 3", sans-serif;
 }
 
 .container{
@@ -9,14 +10,15 @@ body {
     margin: 0 auto;
 }
 
+/*header*/
+
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px;
+    border-bottom: 2px solid #EDEDED;
 }
-
-
 
 .logo{
     object-fit: contain;
@@ -28,4 +30,35 @@ header{
     height: 60px;
     border-radius: 50%;
     object-fit: cover;
+}
+
+/*Post user info and location*/
+.postprofile{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    gap: 15px;
+}
+
+.postprofile img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.avatar-info{
+    line-height: 5px;
+}
+
+.username{
+    font-weight: 700;
+}
+
+.location{
+    font-size: 15px;
+}
+
+.post-pic{
+    width: 570px;
 }
