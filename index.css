@@ -6,7 +6,6 @@ body {
 
 .container{
     width: 570px;
-    border: 1px solid aqua;
     margin: 0 auto;
 }
 
@@ -60,7 +59,8 @@ header{
 }
 
 .post-pic{
-    width: 570px;
+    width: 100%;
+    display: block;
 }
 
 /*Post footer*/
